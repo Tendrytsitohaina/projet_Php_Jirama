@@ -1,0 +1,64 @@
+.ajout2{
+    background-color: whitesmoke;
+    margin: 1vw;
+    margin-top: 5vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    color: #002b64;
+}
+
+.admin2{
+    z-index: 99;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 9px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sary2{
+    position: absolute;
+    top: 4vh;
+    left: 13vw;
+    z-index: 100;
+}
+
+.jirama{
+    margin: 2% 21.4vw;
+}
+
+.p{
+    text-align: center;
+    width: 70%;
+    margin: 0 15%;
+}
+
+.division{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 3%;
+}
+.division ul{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.division ul li{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.left{
+    margin-left: 10vh;
+}
+
+.myTable{
+    width: 60%;
+    margin: 0 20%;
+    text-align: center;
+}
+.myTable th{
+    text-align: center;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrapVrai.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <script src="bootstrap/bootstrapVrai.min.js"></script>
+    <script src="bootstrap/Jquery/vraiJquery.min.js"></script>
+    <title>Jirama Ofisialy</title>
+    <link rel="shortcut icon" href="image/téléchargement.png" type="image/x-icon">
+    <style>
+        .box1{
+            margin-top: 3vh;
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: flex-start;
+            gap: 2.5vw;
+        }
+        .box2{
+            margin-top: 10vh;
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: flex-start;
+            gap: 15vw;
+        }
+        .show1{
+            background: white;
+            height: 50vh;
+            width: 20vw;
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            text-align: center;
+            color: #00204a;
+            padding: 10px 5%;
+        }
+
+        .show1 p{
+            padding: 10px 0;
+        }
+        
+        .image {
+            width: 1vw;
+            height: auto;
+            margin-bottom: 20px;
+           
+        }
+
+        .retour{
+            margin: 3vh 35%;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <img src="image/téléchargement.png" alt="" class="img-circle sary2">
+    <img src="image/hero-bg.png" alt="" class="sary">
+    <div class="container">
+        <div class="row">
+            <div class="content">
+                <h1 class="titre"><span class="point">.</span>Jirama</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="box1">
+                <div class="show1 col-lg-3 col-md-6">
+                    <img src="image/client-1295901_1920.png" alt="Avatar" class="image" style="width:100%">
+                    <p class="alert alert-success">Liste des clients et les actions</p>
+                    <div class="middle">
+                        <a href="deb.php?controller=customer&action=index" class="btn btn-success">Voir</a>
+                    </div>
+                </div>
+                <div class="show1 col-lg-3 col-md-6">
+                    <img src="image/money-3630935_1280.png" alt="Avatar" class="image" style="width:100%">
+                    <p class="alert alert-success">Paiements d' un facture et listes</p>
+                    <div class="middle">
+                        <a href="deb.php?controller=Paie&action=index" class="btn btn-success">Voir</a>
+                    </div>
+                </div>
+                <div class="show1 col-lg-3 col-md-6">
+                    <img src="image/invoice-153413_1920.png" alt="Avatar" class="image" style="width:100%;">
+                    <p class="alert alert-success">Historique des trois derniers factures</p>
+                    <div class="middle">
+                        <a href="deb.php?controller=customer&action=historique" class="btn btn-success">Voir</a>
+                    </div>
+                </div>
+                
+                <div class="show1 col-lg-3  col-md-6">
+                    <img src="image/counter-309880_1280.png" alt="Avatar" class="image" style="width:100%; margin-bottom: 28px;">
+                    <p class="alert alert-success">Clients qui n' est pas encore payer</p>
+                    <div class="middle">
+                        <a href="deb.php?controller=customer&action=retard" class="btn btn-success">Voir</a>
+                    </div>
+                </div>
+            </div>
+            <a href="index.php" class="btn btn-primary retour">Retour</a>
+        </div>
+   </div>
+</body>

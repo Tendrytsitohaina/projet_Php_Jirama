@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: linear-gradient(to top, #ffffff, #eeeff1);
+}
+
+.dashboard{
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    height: 100vh;
+}
+
+.left_panel{
+    width: 15.5%;
+    background-color: #002b64;
+    color: white;
+    box-sizing: border-box;
+    padding: 1vh 1vh;
+    position: fixed;
+    height: 100%;
+    
+}
+
+.right_panel{
+    margin-left: 15.5vw;
+    width: 84.5%;
+}
+
+.left_content h2{
+    font-size: 5vh;
+    padding: 2vh 3vh;
+    margin-left: 1vw;
+    margin-right: 3vw;
+}
+
+.left_content img{
+    height: 70px;
+    margin: 0 4vw;
+}
+
+.point{
+    color: orange;
+}
+
+.navigation ul{
+    list-style: none;
+    padding: 2vh 0;
+    font-size: 2.8vh;
+
+}
+
+.navigation ul li{
+    padding: 3vh 3vh;
+}
+
+.navigation a{
+    color: white;
+    text-decoration: none;
+    /* background-color: orange; */
+    width: 100%;
+    height: 6.5vh;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+#active{
+    background-color: orange;
+}
+
+.loha{
+    padding: 2vh 3vw;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    color: #00204a;
+    border-radius: 5px;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    width: 84.5%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    overflow: hidden;
+    z-index: 99;
+}
+
+.loha1{
+    padding: 2vh 3vw;
+    background-color: #eeeff1;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    color: #00204a;
+    border-radius: 5px;
+    position: fixed;
+    width: 84.5%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    overflow: hidden;
+    z-index: 99;
+}
+
+.search input[type=text]{
+    margin-left: 10px;
+
+}
+.form-control2{
+    height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}.form-control::-moz-placeholder{color:#999;opacity:1}.form-control:-ms-input-placeholder{color:#999}.form-control::-webkit-input-placeholder{color:#999}.form-control::-ms-expand{background-color:transparent;border:0}.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control{background-color:#eee;opacity:1}.form-control[disabled],fieldset[disabled] .form-control{cursor:not-allowed}
+.search button, input{
+    height: 5vh;
+}
+
+.right_content{
+    margin: 5vh;
+    margin-top: 15vh;
+    height: 78%;
+}
+
+.box{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2.5vw;
+    width: 100%;
+}
+.box2{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2.5vw;
+    width: 100%;
+}
+.show{
+    height: 25vh;
+    width: 17vw;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    color: #00204a;
+    padding: 2vh 2px;
+}
+.show p{
+    font-size: 5vh;
+}
+#datetime{
+    font-size: 4vh;
+}
+
+.divider{
+    height: 4px;
+    max-width: 20%;
+    min-width: 20%;
+    background-color: #00204a;
+    margin: 0 auto;
+}
+#divider{
+    margin: 3vh auto;
+    margin-bottom: 5vh;
+}
+
+
+/* =============== Customers =================== */
+
+.containerPers{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}
+
+.admin{
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    overflow-x:auto;
+}
+
+#ajouter{
+    text-decoration: none;
+}
+
+.admin table{
+    font-size: 15px;
+}
+
+#Mois{
+    font-size: 1.2em;
+}
+
+.icon{
+    width: 20px;
+}
+
+
